@@ -55,6 +55,6 @@ string longestPalindrome(string str) {
 for loop to traverse the array 
 now for each character you need to check for left and right character then if they are equal we will expand the window size for the pallindrome(while loops )
 This will vary for odd and even length palindrome if the palindrome is of even length then r=i+1 and then continue the same process as we did for odd length
-and one more thing expand the only of the window is greater than the reslen(longest window till now .
+and one more thing expand the only of the window is greater than the reslen(longest window till now.
 
 If “aba” is a palindrome, is “xabax” a palindrome? Similarly is “xabay” a palindrome ------------------->Here you go the basic funda
