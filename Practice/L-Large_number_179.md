@@ -27,5 +27,7 @@ string largestNumber(vector<int>& nums)
 ```
 ** Description**
 
-Sort the array in such a way that when we compare the concatenated string of both the elements in the array in any 2 types the type must give us the largest of two types . refer to the image below for better understanding and see neetcode video for even better understanding 
+Sort the array in such a way that when we compare the concatenated string of both the elements in the array in any 2 types the type must give us the largest of two types .
+refer to the image below for better understanding and see neetcode video for even better understanding 
+
 
