@@ -37,3 +37,6 @@ unordered_map<int,int> map;
 ```
 **DESCRIPTION**
 Make use of hash map and priority queues to solve this question 
+
+
+![1686853237443](https://github.com/Chaithra007/Practice-/assets/107351787/a8f8d7d3-bf4d-4721-a8f1-ac0f8d990442)
