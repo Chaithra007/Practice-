@@ -6,7 +6,7 @@ subsets
 
 The solution set must not contain duplicate subsets. Return the solution in any order.
 
- CODE
+LUV CODE
  ```
 oid findsubset(int ind,vector<vector<int>>& ans,vector<int>& ds,vector<int>& nums)
     {
@@ -22,7 +22,7 @@ oid findsubset(int ind,vector<vector<int>>& ans,vector<int>& ds,vector<int>& num
         
     }
 ```
-BETTER CODE
+STRIVER BETTER CODE
 
 ```
 void findsubset(int ind,vector<vector<int>>& ans,vector<int>& ds,vector<int>& nums)
