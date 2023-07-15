@@ -22,7 +22,21 @@ oid findsubset(int ind,vector<vector<int>>& ans,vector<int>& ds,vector<int>& num
         
     }
 ```
+BETTER CODE
 
+```
+void findsubset(int ind,vector<vector<int>>& ans,vector<int>& ds,vector<int>& nums)
+    {
+        ans.push_back(ds);
+        for(int j=ind;j<nums.size();j++)
+        {
+            ds.push_back(nums[j]);
+            findsubset(j+1,ans,ds,nums);
+            ds.pop_back();
+        }
+        
+    }
+```
 HAVE A LOOK AT THE WRONG METHOD FOLLOWED IN THE BELOW CODE
 
 ```
@@ -63,5 +77,9 @@ vector<vector<int>> subsets(vector<int>& nums) {
  Recursion - take and not take an element 
 
  refer to luv video 
+
+ also have a look at striver subset sum 2 video for better explanation 
+
+ 
 
  ![1688889290623](https://github.com/Chaithra007/Practice-/assets/107351787/212551f0-b42e-4bb9-b346-9f8288b0675e)
